@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="basePath">./logs</Property>
+    </Properties>
+    <!--<Appenders>
+        <Appender type="" name=""></Appender>
+    </Appenders>
+    <Loggers></Loggers>-->
+</Configuration>

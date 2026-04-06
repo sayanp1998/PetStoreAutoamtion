@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite" parallel="false">
+    
+    <listeners>
+        <listener class-name="api.utilities.ExtentReportManager"></listener>
+    </listeners>
+
+    <test name="API Tests" thread-count="5">
+        <classes>
+            <class name="api.test.DataDrivenTests"/>
+            <class name="api.test.UserTests"></class>
+            <class name="api.test.UserTestFromPropData"></class>
+        </classes>
+    </test>
+</suite>
